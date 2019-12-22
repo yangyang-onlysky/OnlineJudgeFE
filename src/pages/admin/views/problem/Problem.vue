@@ -89,7 +89,7 @@
               </span>
               <el-autocomplete
                 v-if="inputVisible"
-                size="mini"
+                size="medium"
                 class="input-new-tag"
                 v-model="tagInput"
                 :trigger-on-focus="false"
@@ -600,7 +600,7 @@
       }
     }
     .input-new-tag {
-      width: 78px;
+      width: 150px;
     }
     .button-new-tag {
       height: 24px;
